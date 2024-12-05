@@ -640,9 +640,13 @@ nav {
     margin-right: 0px;
     margin-left: 200px;
   }
+  .section_four {
+    margin-top: 36px;
+  }
   .section__four--container {
     width: 396px;
     height: 182px;
+    margin-top: 36px;
   }
   .section__four--container h1{
     font-size: 24px;
@@ -653,6 +657,7 @@ nav {
   .section__four--flex {
     width: 396px;
     height: 130px;
+    margin-top: 32px;
   }
   .box {
     width: 121px;
