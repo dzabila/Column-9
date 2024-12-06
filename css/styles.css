@@ -501,6 +501,10 @@ nav {
   flex-direction: column;
   align-items: center;
 }
+.instructor:hover {
+  box-shadow: 0px 5px 5px 5px #030303;
+  cursor: pointer;
+}
 .instructor img {
   width: 56.61px;
   height: 56.61px;
