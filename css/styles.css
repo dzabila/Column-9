@@ -464,6 +464,65 @@ nav {
 .section__five--resp {
   display: none;
 }
+.section__seven {
+  width: 100%;
+  margin-top: 112px;
+
+}
+.section__seven--container {
+  max-width: 1440px;
+  width: 100%;
+  height: 612px;
+  margin: 0 auto;
+}
+.section__seven--container h1 {
+  width: 559px;
+  margin: 0 auto;
+  margin-top: 62px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 81.71px;
+  color: black;
+}
+.section__seven--flex {
+  max-width: 1300px;
+  width: 100%;
+  height: 311.37px;
+  margin: 0 auto;
+  margin-top: 84.44px;
+  display: flex;
+  justify-content: space-between;
+}
+.instructor {
+  width: 311.37px;
+  height: 311.37px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.instructor img {
+  width: 56.61px;
+  height: 56.61px;
+  margin-top: 74.56px;
+}
+.instructor h3 {
+  width: 208.53px;
+  text-align: center;
+  font-size: 22.65px;
+  line-height: 27.41px;
+  color: #495057;
+  font-weight: 300;
+  margin-top: 33.57px;
+}
+.instructor h2 {
+  width: 245.33px;
+  text-align: center;
+  font-size: 30.19px;
+  line-height: 36.54px;
+  font-weight: 500;
+  margin-top: 7.55px;
+}
 @media (max-width: 1440px) {
   /* section One code */
   .header__container {
@@ -543,6 +602,15 @@ nav {
   .section__five--text p {
     font-size: 20px;
     width: 350px;
+  }
+  .section__seven--container {
+    height: 950px;
+  }
+  .section__seven--flex {
+    max-width: 700px;
+    height: 650px;
+    flex-wrap: wrap;
+    justify-content: space-between ;
   }
 }
 @media (max-width: 1024px) {
@@ -817,5 +885,35 @@ nav {
   .see__button {
     margin-left: 213px;
     margin-top: 28px;
+  }
+  .section__seven--container {
+    height: 549px;
+  }
+  .section__seven--container h1 {
+    width: 303px;
+    font-size: 32px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .section__seven--flex {
+    margin-top: 30px;
+    width: 398px;
+    height: 355.03px;
+  }
+  .instructor {
+    width: 169.03px;
+    hanging-punctuation: 169.03px;
+    justify-content: center;
+  }
+  .instructor h3 {
+    width: 113.2px;
+    text-align: center;
+    font-size: 12.29px;
+    line-height: 14.88px;
+  }
+  .instructor h2{
+    width: 133.18px;
+    font-size: 16.39px;
+    line-height: 19.84px;
   }
 }
