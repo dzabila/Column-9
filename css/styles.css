@@ -331,7 +331,8 @@ nav {
 }
 .section__four--container h1 {
   margin: 0 auto;
-  width: 502px;
+  width: 600px;
+  text-align: center;
   font-weight: 700;
   font-size: 60px;
   line-height: 20px;
@@ -362,6 +363,12 @@ nav {
 
 .box1 {
   background: url(../img/box1.png);
+}
+.box11 {
+  background:url(../img/section\ six1.png);
+}
+.box22 {
+  background: url(../img/section\ six2.png);
 }
 .box2 {
   background: url(../img/box2.png);
