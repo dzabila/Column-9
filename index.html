@@ -22,7 +22,9 @@
           <ul class="nav__list">
             <li><a href="#home" class="nav__list--item">Home</a></li>
             <li><a href="#courses" class="nav__list--item">Courses</a></li>
-            <li><a href="#instructors " class="nav__list--item">Instructors</a></li>
+            <li>
+              <a href="#instructors " class="nav__list--item">Instructors</a>
+            </li>
             <li><a href="#" class="nav__list--item">Schedules</a></li>
             <li><a href="#contact" class="nav__list--item">Contac Us</a></li>
           </ul>
@@ -131,7 +133,7 @@
           <h2 class="section__three--heading">What we offer</h2>
         </div>
       </section>
-      <section class="section__three ">
+      <section class="section__three">
         <div class="section__three--container">
           <div class="section__three--image">
             <img src="./img/section three.png" alt="girl with laptop" />
@@ -198,15 +200,21 @@
           </div>
         </div>
       </section>
-      <section class="section__six">  
+      <section class="section__six">
         <div class="section__four--container">
           <h1>Recent Publications</h1>
           <div class="section__four--flex">
             <div class="box box11">
-              <p>NATURE<br /> of science</p>
+              <p>
+                NATURE<br />
+                of science
+              </p>
             </div>
             <div class="box box22">
-              <p>2022<br /> Astro Report</p>
+              <p>
+                2022<br />
+                Astro Report
+              </p>
             </div>
             <div class="box box3">
               <p>Data Analysis With Python</p>
@@ -225,22 +233,22 @@
           <h1>Notable Instructors</h1>
           <div class="section__seven--flex">
             <div class="instructor">
-              <img src="./img/instructor1.png" alt="instructor">
+              <img src="./img/instructor1.png" alt="instructor" />
               <h3>DATA ANALYST</h3>
               <h2>Prof. W.J Khatam</h2>
             </div>
             <div class="instructor">
-              <img src="./img/instructor2.png" alt="instructor">
+              <img src="./img/instructor2.png" alt="instructor" />
               <h3>UX DESIGNER</h3>
               <h2>Prof. Kaif Kofi O</h2>
             </div>
             <div class="instructor">
-              <img src="./img/instructor3.png" alt="instructor">
+              <img src="./img/instructor3.png" alt="instructor" />
               <h3>SOFTWARE DEV.</h3>
               <h2>Prof. Maryam J</h2>
             </div>
             <div class="instructor">
-              <img src="./img/instructor4.png" alt="instructor">
+              <img src="./img/instructor4.png" alt="instructor" />
               <h3>PSYCHOLOGIST</h3>
               <h2>Mr. Oluwole B.O</h2>
             </div>
@@ -248,7 +256,83 @@
         </div>
       </section>
       <section class="section__eight" id="contact">
+        <div class="section__eight--container">
+          <h1>Get in Touch</h1>
+          <p>
+            Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum,
+            dignissim pharetra. Aliquam Lorem ipsum dolor sit at, consectetur
+            adipielit. Facilisi fermentum, dignissim pharetra. Aliquam
+          </p>
+          <div class="section__eight--flex">
+            <div class="section__eight--contact">
+              <div class="contact__icons">
+                <img src="./img/contact icon 1.png" alt="" />
+                <img src="./img/contact icon 2.png" alt="" />
+                <img src="./img/contact icon 3.png" alt="" />
+              </div>
+              <div class="contact__info">
+                <div class="contact__box1">
+                  <h2>
+                    <a href="mailto:info@column9.com">info@column9.com</a>
+                  </h2>
+                  <p>lorem ispum lorem ispumlorem ispum</p>
+                </div>
+                <div class="contact__box2">
+                  <h2>
+                    <a href="tel:+234 80XXXXXXX">+234 80XXXXXXX</a>
+                  </h2>
+                  <p>lorem ispum lorem ispumlorem ispum</p>
+                </div>
+                <div class="contact__box3">
+                  <p>lorem ispum lorem ispumlorem ispum</p>
+                  <h2><a href="#">Support center --></a></h2>
+                </div>
+              </div>
+            </div>
+            <div class="section__eight--form">
+              <form action="/submit-form" method="post">
+                <label for="name"></label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                  required
+                />
 
+                <label for="email"></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
+
+                <label for="subject"></label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                />
+
+                <label for="message"></label>
+                <textarea
+                  id="message"
+                  class="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Input Text"
+                  required
+                ></textarea>
+
+                <button type="submit" class="send__button">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </body>
