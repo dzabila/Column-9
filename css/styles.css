@@ -1098,12 +1098,14 @@ nav {
     width: 396px;
   }
   .section__eight--form input {
-    width: 396px;
+    max-width: 396px;
+    width: 100%;
     height: 48px;
   }
 
   #message {
-    width: 396px;
+    max-width: 396px;
+    width: 100%;
   }
   .send__button {
     width: 394px;
